@@ -225,7 +225,7 @@ public class Blackjack {
     public static void initCardSet(){
         deck = new ArrayList<>();
 
-        for (int decks = 0; decks < 1; decks++){
+        for (int decks = 0; decks < 8; decks++){
             deck.add("♠A");
             deck.add("♡A");
             deck.add("♣A");
